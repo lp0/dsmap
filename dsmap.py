@@ -74,7 +74,7 @@ def query(*args):
 		if bool(ans.response.flags & dns.flags.from_text("AD")):
 			return ans
 		return False
-	except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.YXDOMAIN):
+	except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.YXDOMAIN, dns.resolver.NoNameservers):
 		return None
 
 
