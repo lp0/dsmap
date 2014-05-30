@@ -1,0 +1,166 @@
+domains:
+# http://en.wikipedia.org/w/index.php?title=Template:Commercial_and_retail_banks_in_the_United_Kingdom&oldid=600434330
+
+- name: Bank of England
+  domain: bankofengland.co.uk
+
+- name: Barclays Bank
+  domain: barclays.com
+  hostname: bank.barclays.co.uk
+
+- name: Britannia
+  domain: britannia.co.uk
+  hostname: www.britannia.co.uk
+
+- name: The Co-operative Bank
+  domain: co-operativebank.co.uk
+  hostname: personal.co-operativebank.co.uk
+
+- name: Smile
+  domain: smile.co.uk
+  hostname: banking.smile.co.uk
+
+- name: Unity Trust Bank
+  domain: unity.co.uk
+  hostname: www.unity-online.co.uk
+
+- name: First Direct
+  domain: firstdirect.com
+  hostname: www1.firstdirect.com
+
+- name: HSBC Bank
+  domain: hsbc.co.uk
+  hostname: www.hsbc.co.uk
+
+- name: Bank of Scotland
+  domain: bankofscotland.co.uk
+  hostname: online.bankofscotland.co.uk
+
+- name: Birmingham Midshires
+  domain: bmsavings.co.uk
+  hostname: www.esavingsaccount.co.uk
+
+- name: Halifax
+  domain: halifax.co.uk
+  hostname: www.halifax-online.co.uk
+
+- name: Lloyds Bank
+  domain: lloydsbank.com
+  hostname: online.lloydsbank.co.uk
+
+- name: TSB
+  domain: tsb.co.uk
+  hostname: online.tsb.co.uk
+
+- name: Clydesdale Bank
+  domain: cbonline.co.uk
+  hostname: home2.cbonline.co.uk
+
+- name: Yorkshire Bank
+  domain: ybonline.co.uk
+  hostname: home1.ybonline.co.uk
+
+- name: Coutts & Co.
+  domain: coutts.com
+  hostname: online.coutts.com
+
+- name: National Westminster Bank
+  domain: natwest.com
+  hostname: www.nwolb.com
+
+- name: The Royal Bank of Scotland
+  domain: rbs.co.uk
+  hostname: www.rbsdigital.com
+
+- name: Ulster Bank (NI)
+  domain: ulsterbank.co.uk
+  hostname: www.ulsterbankanytimebanking.co.uk
+
+- name: Cahoot
+  domain: cahoot.com
+  hostname: securebank.cahoot.com
+
+- name: Santander UK
+  domain: santander.co.uk
+  hostname: retail.santander.co.uk
+
+- name: National Savings and Investments
+  domain: nsandi.com
+  hostname: secure2.nsandi.com
+
+- name: Airdrie Savings Bank
+  domain: airdriesavingsbank.com
+  hostname: www.asbolb.com
+
+- name: Allied Irish Bank (GB)
+  domain: aibgb.co.uk
+  hostname: onlinebanking.aibgb.co.uk
+
+- name: First Trust Bank
+  domain: firsttrustbank.co.uk
+  hostname: onlinebanking.firsttrustbank.co.uk
+
+- name: Bank of Ireland
+  domain: bankofireland.com
+  hostname: www.365online.com
+
+- name: Close Brothers Group
+  domain: closebrothers.com
+
+- name: Danske Bank
+  domain: danskebank.co.uk
+  hostname: ebanking2.danskebank.co.uk
+
+- name: GE Money
+  domain: gemoney.co.uk
+
+- name: Handelsbanken
+  domain: handelsbanken.co.uk
+  hostname: secure.handelsbanken.com
+
+- name: ICICI Bank UK
+  domain: icicibank.com
+  hostname: infinity.icicibank.co.in
+
+- name: Islamic Bank of Britain
+  domain: islamic-bank.com
+  hostname: online.islamic-bank.com
+
+- name: Julian Hodge Bank
+  domain: julianhodgebank.com
+
+- name: Kingdom Bank
+  domain: kingdombank.co.uk
+
+- name: Metro Bank
+  domain: metrobankonline.co.uk
+  hostname: personal.metrobankonline.co.uk
+
+- name: OneSavings Bank
+  domain: osb.co.uk
+
+- name: Raphaels Bank
+  domain: raphaelsbank.com
+
+- name: Reliance Bank
+  domain: reliancebankltd.com
+  hostname: ibank.reliancebankltd.com
+
+- name: Sainsbury's Bank
+  domain: sainsburysbank.co.uk
+  hostname: online.sainsburysbank.co.uk
+
+- name: Standard Chartered
+  domain: sc.com
+
+- name: Tesco Bank
+  domain: tescobank.com
+  hostname: www.tescobank.com
+
+- name: Triodos Bank
+  domain: triodos.co.uk
+  hostname: banking.triodos.co.uk
+
+- name: Virgin Money
+  domain: virginmoney.com
+  hostname: online.virginmoney.com
