@@ -68,10 +68,10 @@ def update(dict, other):
 	return dict
 
 
-def query(*args):
+def query(*args, ad=True):
 	try:
 		ans = res.query(*args)
-		if bool(ans.response.flags & dns.flags.from_text("AD")):
+		if not ad or bool(ans.response.flags & dns.flags.from_text("AD")):
 			return ans
 		return False
 	except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.YXDOMAIN, dns.resolver.NoNameservers):
@@ -85,7 +85,7 @@ def has_tlsa(hostname, proto="tcp", port=443):
 	return bool(query("_{1:d}._{0:s}.{2:s}".format(proto, port, hostname), "TLSA"))
 
 def has_dmarc(domain):
-	ans = query("_dmarc.{0:s}".format(domain), "TXT")
+	ans = query("_dmarc.{0:s}".format(domain), "TXT", ad=False)
 	if ans:
 		for rr in ans:
 			rr = dict((x[0], x[2]) for x in (entry.partition("=") for entry in "".join(rr.strings).replace(" ", "").split(";")))
