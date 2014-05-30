@@ -1,0 +1,184 @@
+domains:
+# http://en.wikipedia.org/w/index.php?title=Template:UK_Building_Societies&oldid=562740215
+
+- name: Barnsley Building Society
+  domain: barnsley-bs.co.uk
+  hostname: online.barnsley-bs.co.uk
+
+- name: Bath Building Society
+  domain: bathbuildingsociety.co.uk
+  hostname: online.bathbuildingsociety.co.uk
+
+- name: Beverley Building Society
+  domain: beverleybs.co.uk
+
+- name: Buckinghamshire Building Society
+  domain: bucksbs.co.uk
+  hostname: mybbsaccounts.bucksbs.co.uk
+
+- name: Cambridge Building Society
+  domain: cambridgebs.co.uk
+  hostname: online.cambridgebs.co.uk
+
+- name: Chelsea Building Society
+  domain: thechelsea.co.uk
+  hostname: online.thechelsea.co.uk
+
+- name: Chorley & District Building Society
+  domain: chorleybs.co.uk
+  hostname: u-2-view.chorleybs.co.uk
+
+- name: City of Derry Building Society
+  domain: cityofderrybs.co.uk
+
+- name: Coventry Building Society
+  domain: coventrybuildingsociety.co.uk
+  hostname: www.coventrybuildingsociety.co.uk
+
+- name: Cumberland Building Society
+  domain: cumberland.co.uk
+  hostname: banking.cumberland.co.uk
+
+- name: Darlington Building Society
+  domain: darlington.co.uk
+
+- name: Dudley Building Society
+  domain: dudleybuildingsociety.co.uk
+
+- name: Earl Shilton Building Society
+  domain: esbs.co.uk
+  hostname: www.esbs.co.uk
+
+- name: Ecology Building Society
+  domain: ecology.co.uk
+  hostname: interactive.ecology.co.uk
+
+- name: Furness Building Society
+  domain: furnessbs.co.uk
+  hostname: www.esavingsonline.co.uk
+
+- name: Hanley Economic Building Society
+  domain: thehanley.co.uk
+  hostname: myaccounts.thehanley.co.uk
+
+- name: Harpenden Building Society
+  domain: harpendenbs.co.uk
+  hostname: online.harpendenbs.co.uk
+
+- name: Hinckley and Rugby Building Society
+  domain: hrbs.co.uk
+  hostname: www.hrbsbroker.co.uk
+
+- name: Holmesdale Building Society
+  domain: theholmesdale.co.uk
+  hostname: myhbs.theholmesdale.co.uk
+
+- name: Ipswich Building Society
+  domain: ibs.co.uk
+
+- name: Leeds Building Society
+  domain: leedsbuildingsociety.co.uk
+  hostname: online.leedsbuildingsociety.co.uk
+
+- name: Leek United Building Society
+  domain: leekunited.co.uk
+
+- name: Loughborough Building Society
+  domain: theloughborough.co.uk
+
+- name: Manchester Building Society
+  domain: themanchester.co.uk
+
+- name: Mansfield Building Society
+  domain: mansfieldbs.co.uk
+  hostname: clickmansfield.mansfieldbs.co.uk
+
+- name: Market Harborough Building Society
+  domain: mhbs.co.uk
+  hostname: www.mhbs.co.uk
+
+- name: Marsden Building Society
+  domain: themarsden.co.uk
+  hostname: esavings.themarsden.co.uk
+
+- name: Melton Mowbray Building Society
+  domain: themelton.co.uk
+  hostname: secure.themeltononline.co.uk
+
+- name: Monmouthshire Building Society
+  domain: monbs.com
+  hostname: myaccounts.monbs.com
+
+- name: National Counties Building Society
+  domain: ncbs.co.uk
+  hostname: www.ncbsonline.co.uk
+
+- name: Nationwide Building Society
+  domain: nationwide.co.uk
+  hostname: onlinebanking.nationwide.co.uk
+
+- name: Newbury Building Society
+  domain: newbury.co.uk
+  hostname: myaccounts.newbury.co.uk
+
+- name: Newcastle Building Society
+  domain: newcastle.co.uk
+  hostname: online.newcastle.co.uk
+
+- name: Norwich & Peterborough Building Society
+  domain: nandp.co.uk
+  hostname: ib02.npbs.co.uk
+
+- name: Nottingham Building Society
+  domain: thenottingham.com
+  hostname: esavings.thenottingham.com
+
+- name: Penrith Building Society
+  domain: penrithbuildingsociety.co.uk
+  hostname: secure.penrithbuildingsociety.co.uk
+
+- name: Principality Building Society
+  domain: principality.co.uk
+  hostname: youraccount.principality.co.uk
+
+- name: Progressive Building Society
+  domain: theprogressive.com
+  hostname: www.theprogressiveonline.co.uk
+
+- name: Saffron Building Society
+  domain: saffronbs.co.uk
+  hostname: savingsonline.saffronbs.co.uk
+
+- name: Scottish Building Society
+  domain: scottishbs.co.uk
+
+- name: Skipton Building Society
+  domain: skipton.co.uk
+  hostname: secure.skipton.co.uk
+
+- name: Stafford Railway Building Society
+  domain: srbs.co.uk
+
+- name: Swansea Building Society
+  domain: swansea-bs.co.uk
+  hostname: www.swansea-bs.co.uk
+
+- name: Teachers Building Society
+  domain: teachersbs.co.uk
+  hostname: online.teachersbs.co.uk
+
+- name: Tipton & Coseley Building Society
+  domain: thetipton.co.uk
+
+- name: Vernon Building Society
+  domain: thevernon.co.uk
+  hostname: onlineservices.thevernon.co.uk
+
+- name: West Bromwich Building Society
+  domain: westbrom.co.uk
+  hostname: www.westbromwebsave.co.uk
+
+- name: Yorkshire Building Society
+  domain: ybs.co.uk
+  hostname: online.ybs.co.uk
+
