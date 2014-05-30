@@ -1,0 +1,26 @@
+domains:
+- name: RSA Security, Inc. (USA)
+  domain: securesuite.co.uk
+  hostname: www.securesuite.co.uk
+
+- name: CA, Inc. (USA)
+  domain: arcot.com
+  hostname: secure5.arcot.com
+
+- name: WorldPay
+  domain: worldpay.com
+  hostname: secure.worldpay.com
+
+- name: Sage Pay
+  domain: sagepay.com
+  hostname: live.sagepay.com
+
+- name: PayPal Pte Ltd
+  domain: paypal.co.uk
+
+- name: PayPal, Inc.
+  domain: paypal.com
+  hostname: www.paypal.com
+
+- name: Paym
+  domain: paym.co.uk
