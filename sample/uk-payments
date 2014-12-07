@@ -24,3 +24,7 @@ domains:
 
 - name: Paym
   domain: paym.co.uk
+
+- name: American Express
+  domain: amexsafekey.com
+  hostname: aacs.amexsafekey.com
