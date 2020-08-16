@@ -2,7 +2,7 @@
 
 #	dsmap - DNS Security Mapper
 #
-#	Copyright ©2014  Simon Arlott
+#	Copyright ©2014,2020  Simon Arlott
 #
 #	This program is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -88,7 +88,7 @@ def has_dmarc(domain):
 	ans = query("_dmarc.{0:s}".format(domain), "TXT", ad=False)
 	if ans:
 		for rr in ans:
-			rr = dict((x[0], x[2]) for x in (entry.partition("=") for entry in "".join(rr.strings).replace(" ", "").split(";")))
+			rr = dict((x[0], x[2]) for x in (entry.partition("=") for entry in b"".join(rr.strings).decode("us-ascii").replace(" ", "").split(";")))
 			if rr.get("v") == "DMARC1":
 				if rr.get("p") == "reject":
 					return "R"
