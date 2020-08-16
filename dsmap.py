@@ -91,11 +91,24 @@ def has_dmarc(domain):
 			rr = dict((x[0], x[2]) for x in (entry.partition("=") for entry in b"".join(rr.strings).decode("us-ascii").replace(" ", "").split(";")))
 			if rr.get("v") == "DMARC1":
 				if rr.get("p") == "reject":
-					return "R"
+					p = "R"
 				elif rr.get("p") == "quarantine":
-					return "Q"
+					p = "Q"
 				elif rr.get("p") == "none":
-					return "N"
+					p = "N"
+				else:
+					p = "?"
+
+				if rr.get("sp") == "reject":
+					sp = "R"
+				elif rr.get("sp") == "quarantine":
+					sp = "Q"
+				elif rr.get("sp") == "none":
+					sp = "N"
+				else:
+					sp = p
+
+				return p if p == sp else p + ", " + sp
 	return None
 
 
